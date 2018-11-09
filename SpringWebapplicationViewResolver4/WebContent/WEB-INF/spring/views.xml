@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+						   http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="index" class="org.springframework.web.servlet.view.JstlView">
+		<property name="url" value="/WEB-INF/views/index.jsp"/>
+	</bean>
+	
+
+	
+	<bean id="registrationform" class="org.springframework.web.servlet.view.JstlView">
+		<property name="url" value="/WEB-INF/views/RegistrationForm.jsp"/>
+	</bean>
+	
+	<bean id="registrationsuccess" class="org.springframework.web.servlet.view.JstlView">
+		<property name="url" value="/WEB-INF/views/RegistrationSuccess.jsp"/>
+	</bean>
+	
+	<bean id="registrationfailure" class="org.springframework.web.servlet.view.JstlView">
+		<property name="url" value="/WEB-INF/views/RegistrationFailure.jsp"/>
+	</bean>
+
+</beans>
