@@ -1,0 +1,82 @@
+2018-11-313 16:22:10 INFO ContextLoader:304 - Root WebApplicationContext: initialization started
+2018-11-313 16:22:10 INFO XmlWebApplicationContext:583 - Refreshing Root WebApplicationContext: startup date [Fri Nov 09 16:22:10 IST 2018]; root of context hierarchy
+2018-11-313 16:22:10 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]
+2018-11-313 16:22:10 INFO DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-11-313 16:22:11 INFO ContextLoader:344 - Root WebApplicationContext: initialization completed in 448 ms
+2018-11-313 16:22:11 INFO DispatcherServlet:489 - FrameworkServlet 'SpringFrontController': initialization started
+2018-11-313 16:22:11 INFO XmlWebApplicationContext:583 - Refreshing WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:22:11 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:22:11 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/web-context.xml]
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/edit{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor(int,javax.servlet.http.HttpSession)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/delete{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpSession)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/editvendor{vid}],methods=[POST]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/allusers]}" onto public java.lang.String com.tadigital.controller.AllVendors.allUsers(javax.servlet.http.HttpSession)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/ || /home]}" onto public java.lang.String com.tadigital.controller.Homecontroller.reloadHome()
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorLogin.reloadLoginForm()
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorLogin.loginTask(com.tadigital.entity.Vendor)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.registerTask(com.tadigital.entity.Vendor)
+2018-11-313 16:22:11 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.reloadRegisterForm()
+2018-11-313 16:22:11 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:22:11 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:22:11 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:22:11 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:22:11 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/html/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-313 16:22:11 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/jss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-313 16:22:11 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/csss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-313 16:22:11 INFO DispatcherServlet:508 - FrameworkServlet 'SpringFrontController': initialization completed in 540 ms
+2018-11-313 16:23:09 INFO class:23 - insertVendor() in sEvice
+2018-11-313 16:23:09 INFO class:25 - insertVendor() in Terminated
+2018-11-313 16:26:44 INFO ContextLoader:304 - Root WebApplicationContext: initialization started
+2018-11-313 16:26:44 INFO XmlWebApplicationContext:583 - Refreshing Root WebApplicationContext: startup date [Fri Nov 09 16:26:44 IST 2018]; root of context hierarchy
+2018-11-313 16:26:44 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]
+2018-11-313 16:26:44 INFO DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-11-313 16:26:44 INFO class:24 - setDataSource() ex
+2018-11-313 16:26:44 INFO ContextLoader:344 - Root WebApplicationContext: initialization completed in 497 ms
+2018-11-313 16:26:44 INFO DispatcherServlet:489 - FrameworkServlet 'SpringFrontController': initialization started
+2018-11-313 16:26:44 INFO XmlWebApplicationContext:583 - Refreshing WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:26:44 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:26:44 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/web-context.xml]
+2018-11-313 16:26:45 INFO class:20 - VendorRegistration() controller Executed
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/allusers]}" onto public java.lang.String com.tadigital.controller.AllVendors.allUsers(javax.servlet.http.HttpSession)
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/delete{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpSession)
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/editvendor{vid}],methods=[POST]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession)
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/edit{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor(int,javax.servlet.http.HttpSession)
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/ || /home]}" onto public java.lang.String com.tadigital.controller.Homecontroller.reloadHome()
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorLogin.reloadLoginForm()
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorLogin.loginTask(com.tadigital.entity.Vendor)
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.reloadRegisterForm()
+2018-11-313 16:26:45 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.registerTask(com.tadigital.entity.Vendor)
+2018-11-313 16:26:45 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:26:44 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:26:45 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:26:44 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:26:45 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/html/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-313 16:26:45 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/jss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-313 16:26:45 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/csss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-313 16:26:45 INFO DispatcherServlet:508 - FrameworkServlet 'SpringFrontController': initialization completed in 578 ms
+2018-11-313 16:28:13 INFO ContextLoader:304 - Root WebApplicationContext: initialization started
+2018-11-313 16:28:13 INFO XmlWebApplicationContext:583 - Refreshing Root WebApplicationContext: startup date [Fri Nov 09 16:28:13 IST 2018]; root of context hierarchy
+2018-11-313 16:28:13 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]
+2018-11-313 16:28:13 INFO DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-11-313 16:28:13 INFO class:24 - setDataSource() ex
+2018-11-313 16:28:13 INFO ContextLoader:344 - Root WebApplicationContext: initialization completed in 444 ms
+2018-11-313 16:28:13 INFO DispatcherServlet:489 - FrameworkServlet 'SpringFrontController': initialization started
+2018-11-313 16:28:13 INFO XmlWebApplicationContext:583 - Refreshing WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:28:13 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:28:13 INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/web-context.xml]
+2018-11-313 16:28:13 INFO class:22 - VendorLogin() Executed
+2018-11-313 16:28:13 INFO class:20 - VendorRegistration() controller Executed
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/editvendor{vid}],methods=[POST]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/delete{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor1(int,javax.servlet.http.HttpSession)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/allusers]}" onto public java.lang.String com.tadigital.controller.AllVendors.allUsers(javax.servlet.http.HttpSession)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/edit{vid}],methods=[GET]}" onto public java.lang.String com.tadigital.controller.AllVendors.editVendor(int,javax.servlet.http.HttpSession)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/ || /home]}" onto public java.lang.String com.tadigital.controller.Homecontroller.reloadHome()
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorLogin.loginTask(com.tadigital.entity.Vendor)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorLogin.reloadLoginForm()
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[POST]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.registerTask(com.tadigital.entity.Vendor)
+2018-11-313 16:28:14 INFO RequestMappingHandlerMapping:543 - Mapped "{[/register],methods=[GET]}" onto public java.lang.String com.tadigital.controller.VendorRegistration.reloadRegisterForm()
+2018-11-313 16:28:14 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:28:13 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:28:14 INFO RequestMappingHandlerAdapter:556 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringFrontController-servlet': startup date [Fri Nov 09 16:28:13 IST 2018]; parent: Root WebApplicationContext
+2018-11-313 16:28:14 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/html/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-11-313 16:28:14 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/jss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2018-11-313 16:28:14 INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/csss/***] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2018-11-313 16:28:14 INFO DispatcherServlet:508 - FrameworkServlet 'SpringFrontController': initialization completed in 577 ms
+2018-11-313 16:28:23 INFO class:32 - registertask() Executed
+2018-11-313 16:28:23 INFO class:23 - insertVendor() in sEvice
+2018-11-313 16:28:23 INFO class:30 - insertVendoRr() dao ex
+2018-11-313 16:28:23 INFO class:41 - insertVendor() dao ter
+2018-11-313 16:28:23 INFO class:25 - insertVendor() in Terminated
+2018-11-313 16:28:23 INFO class:37 - registerTask() Terminated
