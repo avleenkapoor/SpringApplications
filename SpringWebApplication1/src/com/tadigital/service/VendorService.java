@@ -11,7 +11,7 @@ import com.tadigital.dao.VendorDaoImpl;
 import com.tadigital.entity.Vendor;
 
 @Service
-public class VendorService implements VendorServiceImp {
+public class VendorServiceImp implements VendorService {
 	VendorDao vendorDao;
 
 	@Autowired
